@@ -1,0 +1,71 @@
+.hero {
+  background-image: url(/img/hero-bg-2.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 100dvh;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0 !important;
+
+  @media (max-width: 480px) {
+    height: auto;
+    height: 40dvh;
+  }
+
+  // &::after {
+  //   content: "";
+  //   width: 100%;
+  //   position: absolute;
+  //   bottom: -2px;
+  //   left: 0;
+  //   z-index: 2;
+  //   height: 100%;
+  //   background-image: url(/img/hero-after-wave.svg);
+  //   background-repeat: no-repeat;
+  //   background-size: 100%;
+  //   background-position: bottom;
+
+  //   @media (min-width: 2000px) {
+  //     bottom: -5px;
+  //   }
+  // }
+}
+
+.poster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // padding-top: 150px;
+  min-height: 100dvh;
+
+  @media (max-width: 480px) {
+    // padding: 150px 0;
+  }
+
+  img {
+    max-width: 800px;
+    width: 50%;
+  }
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .backgroundVideo {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+
+
+  }
+}

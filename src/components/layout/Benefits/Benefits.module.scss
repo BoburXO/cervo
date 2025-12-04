@@ -1,0 +1,147 @@
+.benefits {
+    // background: #121212;
+    color: #fff;
+    padding: 200px 0;
+    position: relative;
+
+    background-image: url(/img/benefits-bg-2.png);
+    background-repeat: repeat-x;
+
+    background-size: contain;
+    background-position: center;
+
+    // min-height: 900px;
+
+    @media (max-width: 1600px) {
+        padding: 160px 0;
+        background-size: cover;
+        background-position: right;
+
+        // min-height: 1000px;
+    }
+
+    @media (max-width: 768px) {
+        padding: 100px 0;
+
+        // min-height: 1700px;
+        background: #121212;
+        // border-radius: 100px 0 100px 0;
+    }
+
+    &::after,
+    &::before {
+        content: "";
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        height: 120px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        display: none;
+
+        @media (max-width: 480px) {
+            display: block;
+        }
+    }
+
+    &::after {
+        bottom: -1px;
+        left: 0;
+        height: 140px;
+        background-image: url(/img/hero-after-wave.svg);
+        background-position: center bottom;
+    }
+
+    &::before {
+        rotate: 180deg;
+        top: -1px;
+        left: 0;
+        height: 140px;
+        background-image: url(/img/hero-after-wave.svg);
+        background-position: center bottom;
+    }
+}
+
+.top {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    p {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 1.3;
+        color: #556987;
+
+        @media (max-width: 480px) {
+            font-size: 18px;
+        }
+    }
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding-top: 60px;
+
+    @media (max-width: 992px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 35px;
+        padding-top: 40px;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    text-align: center;
+
+    @media (max-width: 480px) {
+        gap: 15px;
+    }
+
+    img {
+        width: 120px;
+        height: 120px;
+        aspect-ratio: 1;
+
+        @media (max-width: 480px) {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    h3 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.2;
+        color: #fff;
+
+        @media (max-width: 480px) {
+            font-size: 24px;
+        }
+    }
+
+    p {
+        color: #556987;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 500;
+        max-width: 400px;
+
+        @media (max-width: 480px) {
+            font-size: 17px;
+        }
+    }
+}

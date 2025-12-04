@@ -1,0 +1,44 @@
+.card {
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #121212;
+    border: 1.5px solid #121212;
+
+    img {
+        width: 100%;
+        height: clamp(13.125rem, 12.147rem + 4.35vw, 15.625rem);
+        object-fit: contain;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .card_body {
+        background-color: #121212;
+        color: #fff;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding: 20px 30px;
+
+        p {
+            font-size: clamp(1rem, 0.853rem + 0.65vw, 1.300rem);
+            font-weight: 800;
+            // padding-bottom: 6px;
+            min-height: 40px;
+            text-transform: uppercase;
+        }
+
+        span {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+
+            h6 {
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 800;
+            }
+        }
+    }
+}

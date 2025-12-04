@@ -1,0 +1,40 @@
+.btn {
+    background-color: #ff0000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 22px;
+    border-radius: 8px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    font-variant: small-caps;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+
+    white-space: nowrap;
+
+    @media (max-width: 480px) {
+        padding: 7px 18px;
+        font-size: 16px;
+    }
+
+    &:hover {
+        background-color: #cd0000;
+    }
+
+    img {
+        width: 28px;
+        height: 28px;
+        object-fit: contain;
+        aspect-ratio: 1;
+
+        @media (max-width: 480px) {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}

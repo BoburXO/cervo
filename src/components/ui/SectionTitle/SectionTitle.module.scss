@@ -1,0 +1,23 @@
+.sectionTitle {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: -2%;
+    color: #ffffff;
+
+    @media (max-width: 768px) {
+      font-size: 36px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 28px;
+    }
+
+    &.white {
+        color: #fff;
+    }
+
+    &.black {
+        color: #000;
+    }
+}

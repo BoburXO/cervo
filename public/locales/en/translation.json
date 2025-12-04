@@ -1,0 +1,197 @@
+{
+    "nav": {
+        "link1": "Dashboard",
+        "link2": "Products",
+        "link3": "Services",
+        "link4": "About us",
+        "link5": "Contacts"
+    },
+    "feedback": {
+        "title1": "Leave your",
+        "title2": "feedback or suggestion",
+        "title3": "we are always here to help!",
+        "accept": "I accept",
+        "link": "terms and conditions",
+        "accept1": "for the use of my data.",
+        "placeholder": "Feedback or suggestion"
+    },
+    "footer": {
+        "title": "All rights reserved."
+    },
+    "btn": {
+        "apply": "Apply now",
+        "send": "Send"
+    },
+    "contactsWrap": {
+        "pretitle": "Contacts",
+        "title": "Let’s stay connected",
+        "description": "It's never been easier to get in touch with Transit Company Inc. Call us, use our live chat widget or email and we'll get back to you as soon as possible!",
+        "email": "Email",
+        "phone": "Phone",
+        "socials": "Socials"
+    },
+    "numbers": {
+        "pretitle": "Numbers",
+        "title": "We believe in numbers",
+        "cards": [
+            {
+                "title": "Products",
+                "value": 120,
+                "icon": "/img/numbers-icon-1.svg"
+            },
+            {
+                "title": "Years on the market",
+                "value": 12,
+                "icon": "/img/numbers-icon-2.svg"
+            },
+            {
+                "title": "Global distributors",
+                "value": 40,
+                "icon": "/img/numbers-icon-3.svg"
+            },
+            {
+                "title": "Satisfied clients",
+                "value": 1000,
+                "icon": "/img/numbers-icon-4.svg"
+            }
+        ]
+    },
+    "benefits": {
+        "pretitle": "Benefits",
+        "title": "Advantages of the Company",
+        "description": "We manufacture car batteries, wheels, and tires and are looking for distributors. Flexible terms, reliable delivery, and support.",
+        "cards": [
+            {
+                "icon": "/img/benefits-icon-1.svg",
+                "title": "Wide Range of Products",
+                "text": "A variety of car rims, tires and batteries for all types of vehicles"
+            },
+            {
+                "icon": "/img/benefits-icon-2.svg",
+                "title": "Guaranteed Quality",
+                "text": "Certified products from trusted manufacturers"
+            },
+            {
+                "icon": "/img/benefits-icon-3.svg",
+                "title": "International Delivery",
+                "text": "Fast and reliable shipping to partners worldwide"
+            },
+            {
+                "icon": "/img/benefits-icon-4.svg",
+                "title": "Personal Manager for Clients",
+                "text": "Individual approach and prompt solutions to any tasks"
+            },
+            {
+                "icon": "/img/benefits-icon-5.svg",
+                "title": "24/7 Customer Support",
+                "text": "Professional assistance anytime, anywhere"
+            },
+            {
+                "icon": "/img/benefits-icon-6.svg",
+                "title": "Profitable Wholesale Purchases",
+                "text": "Exclusive discounts and offers for wholesale clients"
+            }
+        ]
+    },
+    "products": {
+        "title": "Battery, Tire & Wheel Solutions Delivering the Quality and Style Your Vehicle Deserves",
+        "description": "From premium tires to custom wheels and reliable batteries, we’re here to elevate your driving experience anytime, anywhere."
+    },
+    "not_found": "Not found...",
+    "seo": {
+        "desc": "Cervo Global offers a wide range of car batteries, wheels, and tires. We work with global distributors and provide high-quality certified products, fast delivery, and 24/7 customer support.",
+        "keyword": "car batteries, wheels, tires, auto parts, wholesale, Cervo Global, international delivery, car accessories, automotive, distributors, customer support"
+    },
+    "pages": {
+        "main": "Home page",
+        "products": "Products"
+    },
+    "modal": {
+        "title": "Application",
+        "labels": {
+            "lastName": "Last Name",
+            "firstName": "First Name",
+            "middleName": "Middle Name",
+            "city": "City",
+            "state": "State",
+            "address": "Address",
+            "company": "Company",
+            "phone": "Phone Number",
+            "email": "Email Address",
+            "comments": "Comments"
+        },
+        "placeholders": {
+            "lastName": "Enter last name",
+            "firstName": "Enter first name",
+            "middleName": "Enter middle name",
+            "city": "Enter city",
+            "state": "Enter state",
+            "address": "Enter address",
+            "company": "Enter company name",
+            "phone": "Enter your phone number",
+            "email": "pat@shuffle.dev",
+            "comments": "Lorem ipsum dolor..."
+        },
+        "submit": "Apply"
+    },
+    "characteristics": {
+        "dry": "Dry",
+        "wet": "Wet",
+        "snow": "Snow",
+        "noise": "Noise",
+        "treadwear": "Treadwear"
+    },
+    "our_wheels": "Our other wheels:",
+    "map": "Map",
+    "warranty": "WARRANTY",
+    "breadcrumbs": {
+        "home": "Dashboard",
+        "services": "Services",
+        "about-us": "About Us",
+        "contact": "Contact"
+    },
+    "about": {
+        "slogan": "The Professional Choice for Your Fleet",
+        "title": "Short Description about Cervo:",
+        "desc1": "Cervo is a brand with over 22 years of experience in the automotive industry. In 2023, we launched the Cervo trademark to unify our expertise under one name and offer customers a trusted source for high-quality wheels, tires, and batteries. In 2024, our brand and logo were officially patented internationally, confirming our commitment to quality and global standards.",
+        "desc2": "In 2025, we went online to make our products more accessible — and now, Cervo is actively seeking international partners for collaboration and global distribution of our products, including car batteries, wheels, and tires. Our goal is to enter new markets and build long-term partnerships around the world."
+    },
+    "services": {
+        "batteries": "Batteries",
+        "tires": "Tires",
+        "wheels": "Wheels",
+        "battery": "BATTERY",
+        "tire": "TIRE",
+        "wheel": "WHEEL",
+        "title_battery": "One-Year Warranty for Formulaplus Car Batteries",
+        "desc_battery": "<p>This warranty document outlines the terms and conditions of the one-year warranty provided for car batteries manufactured by Formulaplus.<br/><br/>Warranty Terms<br/>Warranty Period: The warranty is valid for 12 months from the purchase date (or 20,000 km of mileage, whichever comes first), as stated in the receipt or warranty card.<br/><br/>Scope of Warranty: Replacement or free repair of the battery in case of a manufacturing defect. Inspection and diagnostics are carried out exclusively at authorized service centers.<br/><br/>Warranty Coverage: The warranty applies to malfunctions caused by manufacturing defects and inability of the battery to hold a charge under proper operating conditions.<br/><br/>Warranty Exclusions: The warranty does not cover improper use, mechanical damage, unauthorized repairs, or natural wear and tear.<br/><br/>Warranty Claim Procedure: Contact the battery seller with the original receipt and warranty card. Specialists will diagnose the issue to determine the cause of the malfunction. If a manufacturing defect is confirmed, the battery will be repaired or replaced free of charge.<br/><br/>Usage Recommendations: Regularly check the battery's charge level and voltage. Follow the recommended temperature range and avoid deep discharge. Prevent mechanical damage and contact with chemically active substances.<br/><br/>Formulaplus guarantees the high quality of its products and strives to ensure maximum customer satisfaction.</p>",
+        "title_tire": "Warranty for Cervo Tires",
+        "desc_tire": "<p>There are several types of warranties that come with the tires: Manufacturing Defects Warranty and Mileage Warranty. All tires come with a basic warranty against manufacturing defects. Here is additional information to help you understand the different warranties and how to proceed when making a warranty claim:<br/>Manufacturing Defects Warranty: All tires have a certain basic warranty against defects arising during tire manufacture. This includes defects in workmanship or material for the life of the tire (up to 2/32 of the tread). Generally, unrounded tires are an isolated case of one tire not balancing. This should be detected quickly after the tire has been installed on the vehicle. The length of the manufacturer's defect warranty depends on the manufacturer and the type of tire.<br/>Mileage Warranties: The mileage warranty is determined by the tire manufacturer based on the average number of miles expected for the tire. To successfully file a mileage warranty, you must be able to provide the following: Installation records with mileage, rotation and mileage records when the tire is removed from the vehicle. To qualify for the mileage warranty, tires must be uniformly worn and have a tread balance of 2/32 or less. Your papers and tire(s) will be examined and measured. If so, you will receive credit for unused mileage under warranty.</p>",
+        "title_wheel": "Warranty for Cervo Wheels",
+        "desc_wheel": "<p>All purchased discs are covered by a 12-month manufacturer's warranty, subject to the Buyer's compliance with all the provisions specified in the instructions accompanying the product.<br/><br/>The warranty is valid from the date of purchase (delivery). When you receive the discs, it is necessary to inspect them in detail for visual defects. No complaints about the appearance of the discs will be accepted after signing the sales receipt.<br/><br/>THEY ARE NOT COVERED BY THE WARRANTY:<br/>- Defects caused by installing the wrong size rims or on a vehicle not regulated by the manufacturer;<br/>- Deformation due to improper operation (exceeding the permissible weight or shock loads from dropping the machine into a pit, hitting a foreign object or a curbstone, etc.);<br/>- Partial or complete loss of paint coating in case of improper storage of discs or mechanical influences;<br/>- Damage to the disc or its coating during insertion or installation on the vehicle;<br/>- Appearance of cosmetic defects resulting from the use of chemicals as cleaning agents (chrome-plated and painted discs);<br/>- Occurrence of defects caused by an emergency situation;<br/>- Discoloration or swelling of the paintwork as a result of winter de-icing agents being applied to the wheels.<br/><br/>CONDITIONS OF USE OF AUTOMOBILE DISCS:<br/>- The size of the discs you install on the car must be regulated by the manufacturer.<br/>- Before putting on the discs, they should be tried on (without tires!) to the car on the front and rear hub axles to check that all mounting holes match and that the disc will not touch the car parts when rotating.<br/>- Paint defects and corrosion caused by improper care and the use of chemicals to clean the rims are not grounds for a warranty claim.<br/><br/>RECOMMENDATIONS FOR THE CARE OF LIGHT-ALLOY WHEELS:<br/>Chromed and painted rims: To keep the paint finish as long as possible, always clean the rim with only mild water-based detergents. Avoid contact with salt, brake dust, gasoline, and chemical-based detergents commonly used in touch-free car washes.<br/>Polished rims: We recommend using only mild detergent automotive cleaners for cleaning. Use an aluminum metal polish to maintain and enhance the shine.</p>"
+    },
+    "categories": {
+        "batteries": {
+            "name": "Batteries",
+            "description": "Reliable power solutions designed for long-lasting performance and safety."
+        },
+        "tires": {
+            "name": "Tires",
+            "description": "Grip the road with confidence. Our tires deliver superior performance, safety, and durability."
+        },
+        "wheels": {
+            "name": "Wheels",
+            "description": "High-quality wheels designed for strength, style, and optimal road performance."
+        }
+    },
+    "materials": {
+        "aluminum": "Aluminum",
+        "forged": "Forged"
+    },
+    "tires": {
+        "name": "Cervo Tires - Evrolux",
+        "category": "Evrolux",
+        "subtitle": "Feel the Comfort Every Day",
+        "description": "CERVO EVROLUX car tires — an elastic shell located on the wheel rim. The tire is designed to absorb minor vibrations caused by road surface imperfections, absorb forces in the contact patch, and provide a high coefficient of traction."
+    }
+}

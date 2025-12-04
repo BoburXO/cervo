@@ -1,0 +1,46 @@
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('./fonts/stylesheet.css');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    // background-image: url(/img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#__next {
+    > section:first-of-type {
+        margin-top: 100px;
+
+        @media (max-width: 480px) {
+            margin-top: 80px;
+        }
+    }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    &::after {
+        content: "";
+        height: 100px;
+        width: 42px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        font-size: 0 !important;
+    }
+}
+
+.swiper-button-prev {
+    &::after {
+        background-image: url(/img/swiper-arrow-left.svg) !important;
+    }
+}
+.swiper-button-next {
+    &::after {
+        background-image: url(/img/swiper-arrow-right.svg) !important;
+    }
+}

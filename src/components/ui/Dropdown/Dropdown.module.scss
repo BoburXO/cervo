@@ -1,0 +1,77 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownToggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+}
+
+.flagIcon {
+    width: 24px;
+    height: 16px;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+.arrow {
+    font-size: 10px;
+    transition: 0.4s ease;
+    rotate: 0deg;
+
+    &.rotated {
+        rotate: 180deg;
+    }
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    padding: 5px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menuItem {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.optionLabel {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.optionIcon {
+    width: 35px !important;
+    border-radius: 6px;
+}
